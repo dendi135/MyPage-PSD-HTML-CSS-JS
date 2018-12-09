@@ -1,0 +1,232 @@
+body {
+	font-family: EagleSansBold, sens-serial;
+	padding: 0;
+	margin: 0;
+	color: #8d8d8d
+}
+
+.clearfix:after {
+	content: "";
+	display: table;
+	width: 100%;
+	clear: both;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+.container {
+	width: 976px;
+	margin: 0 auto;
+}
+
+.container_top {
+	width: 1008px;
+	margin: 0 auto;
+}
+
+.container_bot {
+	margin-top: 30px;
+	height: 100px;
+	background: url(../img/footer.png) no-repeat center;
+	color: white;
+}
+
+.top {
+	position: relative;
+}
+
+.top:hover {
+	position: relative;
+	opacity: 0.9;
+}
+
+.menu {
+	float: right;
+	margin-top: 78px;
+}
+
+.scroll-dots {
+	position: absolute;
+	top: 315px;
+	left: 200px;
+	width: 100%;
+	color: #000000
+}
+
+.dot1 {
+	margin-right: 16px;
+}
+
+.dot1:hover {
+	margin-right: 16px;
+	opacity: 0.5;
+}
+
+.dot2:hover {
+	opacity: 0.5;
+}
+
+.dot3 {
+	margin-left: 16px;
+}
+
+.dot3:hover {
+	margin-right: 16px;
+	opacity: 0.5;
+}
+
+.container_top h2 {
+	position: absolute;
+	text-decoration: none;
+	top: 295px;
+	left: 1050px;
+	width: 100%;
+	color: #000000
+}
+
+.container_top h2:hover {
+	position: absolute;
+	text-decoration: underline;
+	top: 295px;
+	left: 1050px;
+	width: 100%;
+	color: #000000
+}
+
+.content-blocks {
+	margin-top: 55px;
+}
+
+.contentblock {
+	width: 284px;
+	float: left;
+	text-align: left;
+	background-color: #d7d7d7;
+}
+
+.content-text {
+	margin-left: 12px;
+}
+
+.contentblock h3 {
+	color: #4e4e4e;
+}
+
+.contentblock h3:hover {
+	color: #4e4e4e;
+	opacity: 0.8;
+}
+
+.contentblock h4 {
+	margin-top: -8px;
+}
+
+.contentblock h5 {
+	color: #4e4e4e;
+}
+
+.contentblock h5:hover {
+	color: #4e4e4e;
+	text-decoration: underline;
+}
+
+.contentblock img:hover {
+	opacity: 0.7;
+}
+
+.content-open {
+	text-decoration: none;
+}
+
+.learn-more {
+	text-decoration: none;
+}
+
+.contentblock:nth-child(2) {
+	margin-left: 60px;
+}
+
+.contentblock:last-child {
+	float: right;
+}
+
+.scroll-line {
+	margin-top: 37px;
+	margin-left: 15px;
+}
+
+.scroll-line:hover {
+	margin-top: 39px;
+	margin-left: 15px;
+	opacity: 0.9;
+}
+
+.video {
+	margin-top: 25px;
+}
+
+.about {
+	height: 150px;
+	width: 980px;
+	background-color: #d7d7d7;
+}
+
+.about h2 {
+	text-align: center;
+	color: #4d4d4d;
+}	
+
+.about h4 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.scroll_up {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+
+.scroll_up:hover {
+	display: block;
+	margin: 0 auto;
+	margin-top: 30px;
+	opacity: 0.8;
+}
+
+.design-by {
+	float: right;
+	margin-right: 150px;
+}
+
+.design-by h4{
+	top: 25px;
+	text-align: right;
+	position: relative;
+}
+
+.copywrite {
+	top: 20px;
+	text-align: center;
+	width: 120px;
+	margin-left: 615px;
+	position: relative;
+}
+
+.copywrite h3{
+	top: 15px;
+	position: relative;
+}
+
+.copywrite p{
+	font-size: 10px;
+}
+
+@font-face {
+font-family: "EagleSansBold"; 
+src: url("../fonts/EagleSansBold.ttf") format("truetype"); 
+font-style: normal; 
+font-weight: normal; 
+} 
